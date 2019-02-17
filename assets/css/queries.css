@@ -1,0 +1,25 @@
+/*Small Phones from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 8px;
+    }
+
+    #button {
+        font-size: 16px;
+    }
+
+    .totals {
+        width: 400px;
+    }
+
+/*    overwrite grid.css here*/
+    .span-1-of-3 {
+        width: 32.26%;
+    }
+
+    .span-1-of-2 {
+        width: 40% !important;
+    }
+
+
+}

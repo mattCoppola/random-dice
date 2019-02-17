@@ -18,7 +18,7 @@ function anotherRoll() {
         var die = randomRoll();
         squares[i].innerHTML = diceImages[die];
         total += die + 1;
-        $(".totals").append("Total of " + (i + 1) + " die is " + total + '<br>');
+        $(".totals").append("<p class='col span-1-of-2 die-total'>Total of " + (i + 1) + " die is " + total + "</p>");
     }
 }
 

@@ -27,15 +27,18 @@ body {
 }
 
 .totals {
-    display: block;
-    float: clear;
     color: #232323;
     font-family: 'Markazi Text', 'serif';
-    text-align: center;
-    font-size: 2em;
+    font-size: 20px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
-    width: 650px;
+}
+
+.die-total {
+    text-align: center;
+    width: 40% !important;
+    margin: auto !important;
 }
 
 img {
